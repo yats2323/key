@@ -1,0 +1,16 @@
+{
+  "name": "framecut-discord-license-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord-managed license service for FRAMECUT/VideoClipper",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "register-commands": "node register-commands.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "express": "^5.1.0"
+  }
+}
